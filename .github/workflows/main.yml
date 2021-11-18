@@ -34,6 +34,7 @@ jobs:
         run: |
           echo What is in this directory
           ls -a
+          echo Current directory?
           pwd
           echo Is Java installed?
           java -version
@@ -46,6 +47,8 @@ jobs:
           gradle --version
           ant -version
           env
+          echo Whoami?
+          whoami
           
           
           
